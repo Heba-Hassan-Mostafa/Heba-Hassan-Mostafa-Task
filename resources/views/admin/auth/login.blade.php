@@ -26,7 +26,7 @@
                         <div class="row">
                             <div class="col-md-10 col-lg-10 col-xl-9 mx-auto">
                                 <div class="card-sigin">
-                                    
+
                                     <div class="card-sigin">
                                         <div class="main-signup-header text-left" style="direction: ltr">
                                             {{-- <h5 class="font-weight-semibold mb-4">Please sign in to continue.</h5> --}}
@@ -43,7 +43,7 @@
                                                 <div class="form-group">
                                                     <label>Password</label>
                                                     <input name="password" class="form-control"
-                                                        placeholder="Enter your password" type="password">
+                                                        placeholder="123456789" type="password">
                                                     @error('password')
                                                         <span class="text-danger">{{ $message }}</span>
                                                     @enderror
